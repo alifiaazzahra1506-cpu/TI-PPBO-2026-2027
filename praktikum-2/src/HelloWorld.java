@@ -1,5 +1,9 @@
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Halo, Alifia!");
+        System.out.print("Nama: ");
+        System.out.print("Pia");
+        System.out.println();
+        System.out.println("Ini baris baru");
     }
 }
