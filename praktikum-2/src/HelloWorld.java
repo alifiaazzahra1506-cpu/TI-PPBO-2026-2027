@@ -1,9 +1,11 @@
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Halo, Alifia!");
-        System.out.print("Nama: ");
-        System.out.print("Pia");
+        // Program menampilkan biodata sederhana
+        System.out.print("Nama: Pia");
+        /* Baris di bawah ini
+            mencetak NIM mahasiswa */
         System.out.println();
-        System.out.println("Ini baris baru");
+        System.out.println("NIM: 10041");
     }
 }
