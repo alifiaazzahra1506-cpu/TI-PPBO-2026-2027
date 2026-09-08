@@ -13,6 +13,18 @@ public class OperatorBilangan {
 
         System.out.println("\n========Operator Aritmatika======");
 
-        System.out.println("Penjumlahan (+)
+        System.out.println("Penjumlahan (+): " + (bilangan1 + bilangan2));
+        System.out.println("Pengurangan (-): " + (bilangan1 - bilangan2));
+        System.out.println("Perkalian (*): " + (bilangan1 * bilangan2));
+        System.out.println("Pembagian (/): " + (bilangan1 / bilangan2));
+        System.out.println("Modulus (%): " + (bilangan1 % bilangan2));
+
+        System.out.println("\n===Operator Perbandingan===");
+        System.out.println("Bilangan pertama > bilangan kedua: " + (bilangan1 > bilangan2));
+        System.out.println("Bilangan pertama < bilangan kedua: " + (bilangan1 < bilangan2));
+        System.out.println("Bilangan pertama == bilangan kedua: " + (bilangan1 == bilangan2));
+
+        input.close();
+
     }
 }
