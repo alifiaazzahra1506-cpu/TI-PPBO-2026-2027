@@ -11,7 +11,7 @@ public class SwitchDemo {
                 break;
             case 3:
                 System.out.println("Rabu");
-                break;
+
             default:
                 System.out.println("Hari tidak dikenali");
         }
