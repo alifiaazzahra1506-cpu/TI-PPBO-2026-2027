@@ -22,7 +22,7 @@ public class Latihan4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Jumlah nilai: ");
+        System.out.print("Masukkan Jumlah nilai: ");
         int n = input.nextInt();
 
         int[] nilai = new int[n];
