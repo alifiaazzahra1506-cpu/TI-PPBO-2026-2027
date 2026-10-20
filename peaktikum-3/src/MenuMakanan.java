@@ -35,5 +35,5 @@ public class MenuMakanan {
                 System.out.println("Pilihan tidak valid!");
         }
         input.close();
-    }
+    } 
 }
