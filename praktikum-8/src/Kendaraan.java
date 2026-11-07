@@ -13,14 +13,15 @@ public class Kendaraan {
 class Mobil extends Kendaraan {
     private int jumlahPintu;
 
-// Constructor memanggil super() (Latihan 3)
-public Mobil(String merek, int kecepatanMaks. int jumlahPintu) {
-    super(merek, kecepatanMaks);
-    this.jumlahPintu = jumlahPintu;
+    // Constructor memanggil super() (Latihan 3)
+    public Mobil(String merek, int kecepatanMaks, int jumlahPintu) {
+        super(merek, kecepatanMaks);
+        this.jumlahPintu = jumlahPintu;
+    }
 }
 
     // Subclass Motor
-public class Motor extends Kendaraan {
+class Motor extends Kendaraan {
     private String jenisMotor;
 
 
