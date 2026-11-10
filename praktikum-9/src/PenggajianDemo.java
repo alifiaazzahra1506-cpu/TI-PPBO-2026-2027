@@ -3,7 +3,9 @@ public class PenggajianDemo {
         Pegawai [] daftarPegawai = {
                 new Manager ("Budi" , "M001" , 3000000 , 1000000 ),
                 new Staff ("Siti" , "S001" , 2000000 , 500000 ),
-                new Staff ("Andi" , "S002" , 2000000 , 300000 )
+                new Staff ("Andi" , "S002" , 2000000 , 300000 ),
+                // penambahan object Direktur Latihan
+                new Direktur("Andi", "D001", 10000000, 3000000, 5000000)
         };
 
         double totalGaji = 0;
